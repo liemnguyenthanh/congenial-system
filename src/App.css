@@ -1,5 +1,14 @@
+@import '~antd/dist/antd.css';
+
 .App {
   text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px ;
 }
 
 .App-logo {
@@ -28,4 +37,9 @@
 
 .small {
   font-size: 0.75rem;
+}
+
+.ant-tree-list {
+  background-color: #00000010;
+  margin: 20px 0;
 }
